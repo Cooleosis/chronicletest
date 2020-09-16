@@ -28,7 +28,7 @@
     "gridDistance": 1,
     "gridUnits": "yd",
     "socket": true,
-	"manifest": "https://raw.githubusercontent.com/Cooleosis/chronicletest/master/manifest",
+	"manifest": "https://raw.githubusercontent.com/Cooleosis/chronicletest/master/system.json",
     "url": "asd",
     "download": "asd"
 }
