@@ -1,0 +1,34 @@
+{
+    "name": "chronicle",
+    "title": "Chronicle System",
+    "description": "The Chronicle System, compatible with Sword Chronicle and SIFRP.",
+    "version": "0.0.1",
+    "templateVersion": "1.4",
+    "author": "Shawn Milligan [n3rf_herder#9026], Andrew Cuccinello [DJ#1982]",
+    "esmodules": ["dist/bundle.js"],
+    "styles": ["dist/bundle.css"],
+    "minimumCoreVersion": "0.6.0",
+    "compatibleCoreVersion": "0.6.6",
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "dist/locale/en/config.json"
+        },
+        {
+            "lang": "de",
+            "name": "Deutsch",
+            "path": "dist/locale/de/config.json"
+        }
+    ],
+    "packs": [],
+    "initiative": "@initiative.current.base.value + @initiative.current.dice.text - @wounds.value",
+    "primaryTokenAttribute": "track.physical",
+    "secondaryTokenAttribute": "track.stun",
+    "gridDistance": 1,
+    "gridUnits": "yd",
+    "socket": true,
+	"manifest": "https://raw.githubusercontent.com/smilligan93/SR5-FoundryVTT/master/system.json",
+    "url": "asd",
+    "download": "asd"
+}
